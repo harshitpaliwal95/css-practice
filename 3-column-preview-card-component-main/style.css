@@ -1,0 +1,64 @@
+/* import css */
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&display=swap");
+/* font-family: 'Libre Franklin', sans-serif; 100 */
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&display=swap");
+/* font-family: 'Libre Franklin', sans-serif; 700 */
+/*  */
+
+/* reset css */
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+body {
+  background-color: hsl(0, 0%, 95%);
+}
+
+/* css variable */
+:root {
+  --orange-color: hsl(31, 77%, 52%);
+  --dark-color: hsl(184, 100%, 22%);
+  --very-dark-color: hsl(179, 100%, 13%);
+}
+/*  */
+
+/* main container */
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Libre Franklin", sans-serif;
+}
+/*  */
+
+/* the box */
+#box {
+  display: flex;
+  flex-direction: row;
+  height: 60vh;
+  width: 50rem;
+  border-radius: 10px;
+}
+.box-one {
+  background-color: var(--orange-color);
+  padding: 40px;
+}
+.box-two {
+  background-color: var(--dark-color);
+  padding: 40px;
+}
+.box-three {
+  background-color: var(--very-dark-color);
+  padding: 40px;
+}
+/* button */
+#btn {
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+  background-color: rgba(240, 248, 255, 0);
+  padding: 5px;
+}
