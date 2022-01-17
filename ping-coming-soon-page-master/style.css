@@ -1,17 +1,50 @@
-body {
+/* font links */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&display=swap");
+/* -------- */
+
+/* reset css */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* ------ */
+
+/*  main container */
+.main-container {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
+  height: 100vh;
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+}
+/*  --------- */
+
+/* first text box */
+#text-box {
   text-align: center;
 }
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
+#text-box h2 {
+  font-weight: 300;
+  margin: 20px;
 }
-.attribution a {
-  color: hsl(228, 45%, 44%);
+
+#text-box p {
+  margin: 20px;
+  font-size: small;
 }
+
+/* ------ */
+
+/* from box */
+#from {
+  margin: 5px 0px 40px;
+}
+
+/* ------ */
+
 img {
-  width: 600px;
+  width: 30rem;
 }
