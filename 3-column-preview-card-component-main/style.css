@@ -40,8 +40,8 @@ body {
   flex-direction: row;
   height: 60vh;
   width: 50rem;
-  border-radius: 10px;
 }
+
 .box-one {
   background-color: var(--orange-color);
   padding: 40px;
@@ -54,11 +54,27 @@ body {
   background-color: var(--very-dark-color);
   padding: 40px;
 }
+
 /* button */
+#btn-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #btn {
   border: 1px solid white;
   border-radius: 10px;
   color: white;
   background-color: rgba(240, 248, 255, 0);
-  padding: 5px;
+  padding: 8px;
+}
+h1 {
+  margin: 10px;
+}
+img {
+  margin: 10px;
+}
+p {
+  margin: 10px;
 }
